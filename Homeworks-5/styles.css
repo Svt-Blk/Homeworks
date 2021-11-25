@@ -13,10 +13,10 @@ body {
     width: 50%;
     text-align: left;
     margin-left: 3%;
-    margin-top: 6%
-    } 
+    margin-top: 6%;
+} 
 
-.th, tr, td {
+th, tr, td {
     border-top: 1px solid;
     border-color:rgb(148, 146, 144);
     border-radius: 10px;
@@ -34,6 +34,9 @@ td:nth-child(2) {
     background: #444;
     border: 1px;
     border-radius: 5px;
+}
+.op {
+    visibility: hidden;
 }
 
 
